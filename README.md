@@ -6,7 +6,7 @@ Java 8 to 17 practice set with all the features of the latest version.
    > https://www.javaprogramto.com/2020/05/java-8-function-examples.html
    >>
    > https://www.scaler.com/topics/functional-interface-in-java/
-   > >
+   >> 
    > https://www.baeldung.com/java-8-functional-interfaces
 2. How Functional Interface is different than a nested class or anonymous class?
    > https://www.tutorialspoint.com/differences-between-anonymous-class-and-lambda-expression-in-java
@@ -22,6 +22,10 @@ Java 8 to 17 practice set with all the features of the latest version.
 4. How will you implement your own function chaining using the function interface?
 5. How to use IntStream to create a List?
 6. Why do we need to merge-function in Collectors.toMap to overcome IllegalStateException: Duplicate key? What is its internal architecture?
+7. What are the various functions which can be used in Collectors.toCollect in order to get the stream output
+   efficiently.
+   >CollectorsInJava8.md
+8. To be continued..
 
 # Coding Questions
 1. Write a code where you have been provided with a List of Products and tou have to provide me details of the Product along with its Latest version.
@@ -125,7 +129,23 @@ Java 8 to 17 practice set with all the features of the latest version.
    for differently configured mazes as well.
    ![](src/img.png)
 
-6. To Be continued..
+6. Write a Program to reverse a string without any build in function.
+7. Write a Program to figure out the number of parenthesis are valid or not.
+8. You have a maze represented as a matrix, and the objective is to find a path from the starting 
+   position (0, 0) to the destination position (7, 7) while avoiding blocked cells (marked as 1) and 
+   only moving through open cells (marked as 0). The mouse can only move horizontally or vertically (not diagonally).
+
+   {0, 0, 1, 0, 1, 1, 1, 0}
+   {1, 0, 0, 0, 1, 0, 1, 0}
+   {1, 1, 0, 1, 1, 0, 1, 0}
+   {0, 0, 0, 0, 1, 0, 1, 0}
+   {0, 1, 1, 0, 0, 0, 1, 0}
+   {0, 0, 1, 0, 1, 0, 1, 1}
+   {0, 0, 0, 0, 0, 0, 0, 0}
+   {0, 0, 0, 0, 1, 0, 0, 0}
+
+9.  What if one also want to move diagonally in above maze problem.
+10. To be continued..
 
    
 
