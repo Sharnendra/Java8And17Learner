@@ -11,7 +11,8 @@ public class WordDictionary {
 
         }
 
-        // Inserts the word and corresponding definition into the dictionary, if the word already exists, it will override the word and definition
+        // Inserts the word and corresponding definition into the dictionary,
+        // if the word already exists, it will override the word and definition
         public void insertWord(String word, String definition) {
             Word currentNode = headNode;
             //if there is no node value.

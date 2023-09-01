@@ -3,8 +3,10 @@ package functionalInterfaceTest.tests;
 import functionalInterfaceTest.NestedFunctionalMethods;
 import functionalInterfaceTest.Recursable;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.OptionalDouble;
 import java.util.function.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -39,5 +41,12 @@ public class NestedFunctionalMethodTest {
         System.out.println(data);
         System.out.println(charCountFromString.apply(str));
         System.out.println(fact.apply(10l));
+
+
+
+        List<Integer> intListX = new ArrayList<>();
+        double average = intListX.stream().mapToInt(Integer::intValue).average().orElse(0.0);
+        System.out.println(average);
+
     }
 }
